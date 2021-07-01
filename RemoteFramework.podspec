@@ -57,7 +57,7 @@ Pod::Spec.new do |spec|
   spec.dependency "YandexMobileMetrica/Dynamic" #, '3.15.1'
   
   #Maps
-  spec.dependency 'YandexMapKit'  #, '3.5'
+  #spec.dependency 'YandexMapKit'  #, '3.5'
   
   #Network
   spec.dependency "Connectivity"  #, '5.0'
