@@ -52,13 +52,29 @@
 		B3E5F6AC268DD36D006CA67D /* RemoteFramework */ = {
 			isa = PBXGroup;
 			children = (
+				B3E5F6DC268DEAC7006CA67D /* Exclude */,
+				B3E5F6DB268DEABE006CA67D /* Include */,
 				B3E5F6B9268DD8EE006CA67D /* RemoteFramework.podspec */,
 				B3E5F6AD268DD36D006CA67D /* RemoteFramework.h */,
 				B3E5F6AE268DD36D006CA67D /* Info.plist */,
-				B3E5F6B5268DD41C006CA67D /* PublicClasses.swift */,
-				B3E5F6B7268DD422006CA67D /* InternalClasses.swift */,
 			);
 			path = RemoteFramework;
+			sourceTree = "<group>";
+		};
+		B3E5F6DB268DEABE006CA67D /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				B3E5F6B5268DD41C006CA67D /* PublicClasses.swift */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		B3E5F6DC268DEAC7006CA67D /* Exclude */ = {
+			isa = PBXGroup;
+			children = (
+				B3E5F6B7268DD422006CA67D /* InternalClasses.swift */,
+			);
+			path = Exclude;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
