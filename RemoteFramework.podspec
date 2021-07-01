@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.name         = "RemoteFramework"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "RemoteFramework"
   spec.description  = "Testing RemoteFramework"
   spec.homepage     = "http://EXAMPLE/RemoteFramework"
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source       = { :git => "https://github.com/prisonedinwardrobe/RemoteFramework", :tag => "0.0.2" }
+  spec.source       = { :git => "https://github.com/prisonedinwardrobe/RemoteFramework", :tag => "0.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -54,10 +54,8 @@ Pod::Spec.new do |spec|
   spec.dependency 'SDWebImage'    #, '5.0'
   
   #Analytics
-  spec.dependency "YandexMobileMetrica/Dynamic" #, '3.15.1'
   
   #Maps
-  #spec.dependency 'YandexMapKit'  #, '3.5'
   
   #Network
   spec.dependency "Connectivity"  #, '5.0'
