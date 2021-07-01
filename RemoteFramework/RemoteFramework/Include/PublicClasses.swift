@@ -12,6 +12,8 @@ public final class PublicLogger {
     public func logFromInternal(message: String, logLevel: LogLevel) {
         InternalLogger().logInternally(message: message, logLevel: logLevel)
     }
+    
+    public init() {}
 }
 
 public enum LogLevel {
