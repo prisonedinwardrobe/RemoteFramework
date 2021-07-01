@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.source_files  = "RemoteFramework/**/*.{swift}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.exclude_files = "RemoteFramework/Exclude"
   
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
