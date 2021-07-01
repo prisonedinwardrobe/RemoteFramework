@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B3E5F6AF268DD36D006CA67D /* RemoteFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E5F6AD268DD36D006CA67D /* RemoteFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3E5F6B6268DD41C006CA67D /* PublicClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E5F6B5268DD41C006CA67D /* PublicClasses.swift */; };
+		B3E5F6B8268DD422006CA67D /* InternalClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E5F6B7268DD422006CA67D /* InternalClasses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B3E5F6AA268DD36D006CA67D /* RemoteFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RemoteFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E5F6AD268DD36D006CA67D /* RemoteFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteFramework.h; sourceTree = "<group>"; };
 		B3E5F6AE268DD36D006CA67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3E5F6B5268DD41C006CA67D /* PublicClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicClasses.swift; sourceTree = "<group>"; };
+		B3E5F6B7268DD422006CA67D /* InternalClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalClasses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				B3E5F6AD268DD36D006CA67D /* RemoteFramework.h */,
 				B3E5F6AE268DD36D006CA67D /* Info.plist */,
+				B3E5F6B5268DD41C006CA67D /* PublicClasses.swift */,
+				B3E5F6B7268DD422006CA67D /* InternalClasses.swift */,
 			);
 			path = RemoteFramework;
 			sourceTree = "<group>";
@@ -94,6 +100,7 @@
 				TargetAttributes = {
 					B3E5F6A9268DD36D006CA67D = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -130,6 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E5F6B6268DD41C006CA67D /* PublicClasses.swift in Sources */,
+				B3E5F6B8268DD422006CA67D /* InternalClasses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 		B3E5F6B3268DD36D006CA67D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ALSMTU8N9R;
@@ -279,6 +289,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -287,6 +298,7 @@
 		B3E5F6B4268DD36D006CA67D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ALSMTU8N9R;
