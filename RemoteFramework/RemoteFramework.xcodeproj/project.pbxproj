@@ -10,6 +10,7 @@
 		B3E5F6AF268DD36D006CA67D /* RemoteFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E5F6AD268DD36D006CA67D /* RemoteFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3E5F6B6268DD41C006CA67D /* PublicClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E5F6B5268DD41C006CA67D /* PublicClasses.swift */; };
 		B3E5F6B8268DD422006CA67D /* InternalClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E5F6B7268DD422006CA67D /* InternalClasses.swift */; };
+		B3E5F6BA268DD8EE006CA67D /* RemoteFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B3E5F6B9268DD8EE006CA67D /* RemoteFramework.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		B3E5F6AE268DD36D006CA67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3E5F6B5268DD41C006CA67D /* PublicClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicClasses.swift; sourceTree = "<group>"; };
 		B3E5F6B7268DD422006CA67D /* InternalClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalClasses.swift; sourceTree = "<group>"; };
+		B3E5F6B9268DD8EE006CA67D /* RemoteFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RemoteFramework.podspec; path = ../../RemoteFramework.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		B3E5F6AC268DD36D006CA67D /* RemoteFramework */ = {
 			isa = PBXGroup;
 			children = (
+				B3E5F6B9268DD8EE006CA67D /* RemoteFramework.podspec */,
 				B3E5F6AD268DD36D006CA67D /* RemoteFramework.h */,
 				B3E5F6AE268DD36D006CA67D /* Info.plist */,
 				B3E5F6B5268DD41C006CA67D /* PublicClasses.swift */,
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E5F6BA268DD8EE006CA67D /* RemoteFramework.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
