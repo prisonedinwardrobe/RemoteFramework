@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source       = { :git => "https://github.com/prisonedinwardrobe/RemoteFramework", :tag => "0.0.1" }
+  spec.source       = { :git => "https://github.com/prisonedinwardrobe/RemoteFramework", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
