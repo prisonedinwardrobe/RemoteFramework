@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source_files  = "RemoteFramework/Include/*.{swift}"
+  spec.source_files  = "Include/PublicClasses.swift" #"Include/*.{swift}"
   spec.exclude_files = "Exclude"
   spec.public_header_files = "RemoteFramework/**/*.h"
   
